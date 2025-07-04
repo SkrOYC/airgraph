@@ -1,7 +1,7 @@
 name: 🐛 Bug Resolution
 description: Comprehensive bug resolution with impact assessment and root cause analysis
-title: “[BUG]: “
-labels: [“type:bug”]
+title: "[BUG]: "
+labels: ["type:bug"]
 assignees: []
 body:
   - type: dropdown
