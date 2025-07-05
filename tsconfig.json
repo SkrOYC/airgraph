@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@airgraph/*": ["./packages/*/src"]
+    }
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./packages/cli" },
+    { "path": "./packages/core" },
+    { "path": "./packages/sandbox" },
+    { "path": "./packages/terminal-ui" },
+    { "path": "./packages/utils" }
+  ]
+}
